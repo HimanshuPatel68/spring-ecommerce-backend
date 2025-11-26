@@ -15,7 +15,7 @@ public class CorsConfig {
                         .allowedOrigins(
                                 "http://localhost:5174",
                                 "https://react-ecommerce-app-production-bb10.up.railway.app/",
-                                "https://spring-ecommerce-backend-production.up.railway.app/"
+                                "https://spring-ecommerce-backend-production.up.railway.app/api/"
                         )
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "PATCH")
                         .allowedHeaders("*")
